@@ -1,0 +1,787 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="utf-8" />-->
+    <!--browser title-->
+    <title>POINICK</title>
+</head>
+<body bgcolor="black" onload="gamesound()">
+    <!--page title, Game title, How to play, How to score-->
+    <center><h1><font color="yellow">POINICK THE GHOSTS</font></h1></center>
+    <center>
+        <h2>
+            <font color="yellow">
+                <!--  What to do, when they come for you! Maximize the browser before playing.<br />
+                Click on the ghosts where ever they lay, You don't have long to save the day!!<br />
+                Send them back for points and glory, Life is lost if they tell their story. by SN 10585854<br />-->
+                Ghost themed point and click game. <br />
+                Ghosts well appear, just click on them for points<br />
+                but if you miss you will lose points. Try to get the high score. <br />
+                Adjust your browser window to see all the ghosts then Click 'START' to begin<br />
+
+            </font>
+        </h2>
+    </center>
+
+
+    <form name="spirits">
+        <center>
+            <table bgcolor="black" id="steve">
+                <tr>
+                    <!--introducing a picture sprite black to table-->
+                    <td><img id="place(0)" src="black40x40.png" onclick="clicks(0)"></td>
+                    <td><img id="place(1)" src="black40x40.png" onclick="clicks(1)"></td>
+                    <td><img id="place(2)" src="black40x40.png" onclick="clicks(2)"></td>
+                    <td><img id="place(3)" src="black40x40.png" onclick="clicks(3)"></td>
+                    <td><img id="place(4)" src="black40x40.png" onclick="clicks(4)"></td>
+                    <td><img id="place(5)" src="black40x40.png" onclick="clicks(5)"></td>
+                    <td><img id="place(6)" src="black40x40.png" onclick="clicks(6)"></td>
+                    <td><img id="place(7)" src="black40x40.png" onclick="clicks(7)"></td>
+                    <td><img id="place(8)" src="black40x40.png" onclick="clicks(8)"></td>
+                    <td><img id="place(9)" src="black40x40.png" onclick="clicks(9)"></td>
+                    <td><img id="place(10)" src="black40x40.png" onclick="clicks(10)"></td>
+                    <td><img id="place(11)" src="black40x40.png" onclick="clicks(11)"></td>
+                    <td><img id="place(12)" src="black40x40.png" onclick="clicks(12)"></td>
+                    <td><img id="place(13)" src="black40x40.png" onclick="clicks(13)"></td>
+                    <td><img id="place(14)" src="black40x40.png" onclick="clicks(14)"></td>
+                    <td><img id="place(15)" src="black40x40.png" onclick="clicks(15)"></td>
+                    <td><img id="place(16)" src="black40x40.png" onclick="clicks(16)"></td>
+                    <td><img id="place(17)" src="black40x40.png" onclick="clicks(17)"></td>
+                    <td><img id="place(18)" src="black40x40.png" onclick="clicks(18)"></td>
+                    <td><img id="place(19)" src="black40x40.png" onclick="clicks(19)"></td>
+                    <td><img id="place(20)" src="black40x40.png" onclick="clicks(20)"></td>
+                    <td><img id="place(21)" src="black40x40.png" onclick="clicks(21)"></td>
+
+                </tr>
+                <tr>
+
+                    <td><img id="place(22)" src="black40x40.png" onclick="clicks(22)"></td>
+                    <td><img id="place(23)" src="black40x40.png" onclick="clicks(23)"></td>
+                    <td><img id="place(24)" src="black40x40.png" onclick="clicks(24)"></td>
+                    <td><img id="place(25)" src="black40x40.png" onclick="clicks(25)"></td>
+                    <td><img id="place(26)" src="black40x40.png" onclick="clicks(26)"></td>
+                    <td><img id="place(27)" src="black40x40.png" onclick="clicks(27)"></td>
+                    <td><img id="place(28)" src="black40x40.png" onclick="clicks(28)"></td>
+                    <td><img id="place(29)" src="black40x40.png" onclick="clicks(29)"></td>
+                    <td><img id="place(30)" src="black40x40.png" onclick="clicks(30)"></td>
+                    <td><img id="place(31)" src="black40x40.png" onclick="clicks(31)"></td>
+                    <td><img id="place(32)" src="black40x40.png" onclick="clicks(32)"></td>
+                    <td><img id="place(33)" src="black40x40.png" onclick="clicks(33)"></td>
+                    <td><img id="place(34)" src="black40x40.png" onclick="clicks(34)"></td>
+                    <td><img id="place(35)" src="black40x40.png" onclick="clicks(35)"></td>
+                    <td><img id="place(36)" src="black40x40.png" onclick="clicks(36)"></td>
+                    <td><img id="place(37)" src="black40x40.png" onclick="clicks(37)"></td>
+                    <td><img id="place(38)" src="black40x40.png" onclick="clicks(38)"></td>
+                    <td><img id="place(39)" src="black40x40.png" onclick="clicks(39)"></td>
+                    <td><img id="place(40)" src="black40x40.png" onclick="clicks(40)"></td>
+                    <td><img id="place(41)" src="black40x40.png" onclick="clicks(41)"></td>
+                    <td><img id="place(42)" src="black40x40.png" onclick="clicks(42)"></td>
+                    <td><img id="place(43)" src="black40x40.png" onclick="clicks(43)"></td>
+                </tr>
+                <tr>
+
+                    <td><img id="place(44)" src="black40x40.png" onclick="clicks(44)"></td>
+                    <td><img id="place(45)" src="black40x40.png" onclick="clicks(45)"></td>
+                    <td><img id="place(46)" src="black40x40.png" onclick="clicks(46)"></td>
+                    <td><img id="place(47)" src="black40x40.png" onclick="clicks(47)"></td>
+                    <td><img id="place(48)" src="black40x40.png" onclick="clicks(48)"></td>
+                    <td><img id="place(49)" src="black40x40.png" onclick="clicks(49)"></td>
+                    <td><img id="place(50)" src="black40x40.png" onclick="clicks(50)"></td>
+                    <td><img id="place(51)" src="black40x40.png" onclick="clicks(51)"></td>
+                    <td><img id="place(52)" src="black40x40.png" onclick="clicks(52)"></td>
+                    <td><img id="place(53)" src="black40x40.png" onclick="clicks(53)"></td>
+                    <td><img id="place(54)" src="black40x40.png" onclick="clicks(54)"></td>
+                    <td><img id="place(55)" src="black40x40.png" onclick="clicks(55)"></td>
+                    <td><img id="place(56)" src="black40x40.png" onclick="clicks(56)"></td>
+                    <td><img id="place(57)" src="black40x40.png" onclick="clicks(57)"></td>
+                    <td><img id="place(58)" src="black40x40.png" onclick="clicks(58)"></td>
+                    <td><img id="place(59)" src="black40x40.png" onclick="clicks(59)"></td>
+                    <td><img id="place(60)" src="black40x40.png" onclick="clicks(60)"></td>
+                    <td><img id="place(61)" src="black40x40.png" onclick="clicks(61)"></td>
+                    <td><img id="place(62)" src="black40x40.png" onclick="clicks(62)"></td>
+                    <td><img id="place(63)" src="black40x40.png" onclick="clicks(63)"></td>
+                    <td><img id="place(64)" src="black40x40.png" onclick="clicks(64)"></td>
+                    <td><img id="place(65)" src="black40x40.png" onclick="clicks(65)"></td>
+                </tr>
+                <tr>
+
+                    <td><img id="place(66)" src="black40x40.png" onclick="clicks(66)"></td>
+                    <td><img id="place(67)" src="black40x40.png" onclick="clicks(67)"></td>
+                    <td><img id="place(68)" src="black40x40.png" onclick="clicks(68)"></td>
+                    <td><img id="place(69)" src="black40x40.png" onclick="clicks(69)"></td>
+                    <td><img id="place(70)" src="black40x40.png" onclick="clicks(70)"></td>
+                    <td><img id="place(71)" src="black40x40.png" onclick="clicks(71)"></td>
+                    <td><img id="place(72)" src="black40x40.png" onclick="clicks(72)"></td>
+                    <td><img id="place(73)" src="black40x40.png" onclick="clicks(73)"></td>
+                    <td><img id="place(74)" src="black40x40.png" onclick="clicks(74)"></td>
+                    <td><img id="place(75)" src="black40x40.png" onclick="clicks(75)"></td>
+                    <td><img id="place(76)" src="black40x40.png" onclick="clicks(76)"></td>
+                    <td><img id="place(77)" src="black40x40.png" onclick="clicks(77)"></td>
+                    <td><img id="place(78)" src="black40x40.png" onclick="clicks(78)"></td>
+                    <td><img id="place(79)" src="black40x40.png" onclick="clicks(79)"></td>
+                    <td><img id="place(80)" src="black40x40.png" onclick="clicks(80)"></td>
+                    <td><img id="place(81)" src="black40x40.png" onclick="clicks(81)"></td>
+                    <td><img id="place(82)" src="black40x40.png" onclick="clicks(82)"></td>
+                    <td><img id="place(83)" src="black40x40.png" onclick="clicks(83)"></td>
+                    <td><img id="place(84)" src="black40x40.png" onclick="clicks(84)"></td>
+                    <td><img id="place(85)" src="black40x40.png" onclick="clicks(85)"></td>
+                    <td><img id="place(86)" src="black40x40.png" onclick="clicks(86)"></td>
+                    <td><img id="place(87)" src="black40x40.png" onclick="clicks(87)"></td>
+                </tr>
+                <tr>
+
+                    <td><img id="place(88)" src="black40x40.png" onclick="clicks(88)"></td>
+                    <td><img id="place(89)" src="black40x40.png" onclick="clicks(89)"></td>
+                    <td><img id="place(90)" src="black40x40.png" onclick="clicks(90)"></td>
+                    <td><img id="place(91)" src="black40x40.png" onclick="clicks(91)"></td>
+                    <td><img id="place(92)" src="black40x40.png" onclick="clicks(92)"></td>
+                    <td><img id="place(93)" src="black40x40.png" onclick="clicks(93)"></td>
+                    <td><img id="place(94)" src="black40x40.png" onclick="clicks(94)"></td>
+                    <td><img id="place(95)" src="black40x40.png" onclick="clicks(95)"></td>
+                    <td><img id="place(96)" src="black40x40.png" onclick="clicks(96)"></td>
+                    <td><img id="place(97)" src="black40x40.png" onclick="clicks(97)"></td>
+                    <td><img id="place(98)" src="black40x40.png" onclick="clicks(98)"></td>
+                    <td><img id="place(99)" src="black40x40.png" onclick="clicks(99)"></td>
+                    <td><img id="place(100)" src="black40x40.png" onclick="clicks(100)"></td>
+                    <td><img id="place(101)" src="black40x40.png" onclick="clicks(101)"></td>
+                    <td><img id="place(102)" src="black40x40.png" onclick="clicks(102)"></td>
+                    <td><img id="place(103)" src="black40x40.png" onclick="clicks(103)"></td>
+                    <td><img id="place(104)" src="black40x40.png" onclick="clicks(104)"></td>
+                    <td><img id="place(105)" src="black40x40.png" onclick="clicks(105)"></td>
+                    <td><img id="place(106)" src="black40x40.png" onclick="clicks(106)"></td>
+                    <td><img id="place(107)" src="black40x40.png" onclick="clicks(107)"></td>
+                    <td><img id="place(108)" src="black40x40.png" onclick="clicks(108)"></td>
+                    <td><img id="place(109)" src="black40x40.png" onclick="clicks(109)"></td>
+
+                </tr>
+            </table>
+        </center>
+
+        <center>
+            <table id="savescore">
+                <!-- high score window and message -->
+                <tr>
+                    <td><img id="place(110)" src="black40x40.png" onclick="clicks(110)"></td>
+                    <td><img id="place(111)" src="black40x40.png" onclick="clicks(111)"></td>
+                    <td><img id="place(112)" src="black40x40.png" onclick="clicks(112)"></td>
+                    <td><img id="place(113)" src="black40x40.png" onclick="clicks(113)"></td>
+                    <td><img id="place(114)" src="black40x40.png" onclick="clicks(114)"></td>
+                    <td><img id="place(115)" src="black40x40.png" onclick="clicks(115)"></td>
+                    <td><img id="place(116)" src="black40x40.png" onclick="clicks(116)"></td>
+
+                    <td><input type="text" id="highscoremsg" size="23" value="    BEAT THE HIGH SCORE "></td>
+                    <td><pre> </pre></td>
+                    <td align=right><b><font color="yellow">High Score: </font></b></td>
+                    <td><input type="text" id="highscore" size="4"></td>
+                    <td><img id="place(117)" src="black40x40.png" onclick="clicks(117)"></td>
+                    <td><img id="place(118)" src="black40x40.png" onclick="clicks(118)"></td>
+                    <td><img id="place(119)" src="black40x40.png" onclick="clicks(119)"></td>
+                    <td><img id="place(120)" src="black40x40.png" onclick="clicks(120)"></td>
+                    <td><img id="place(121)" src="black40x40.png" onclick="clicks(121)"></td>
+                    <td><img id="place(122)" src="black40x40.png" onclick="clicks(122)"></td>
+                    <td><img id="place(123)" src="black40x40.png" onclick="clicks(123)"></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+    <form name="top">
+        <center>
+            <!-- maybe cellspacing-->
+            <table id="daniel">
+                <tr>
+                    <td><img id="place(124)" src="black40x40.png" onclick="clicks(124)"></td>
+                    <td><img id="place(125)" src="black40x40.png" onclick="clicks(125)"></td>
+                    <td><img id="place(126)" src="black40x40.png" onclick="clicks(126)"></td>
+                    <td><img id="place(127)" src="black40x40.png" onclick="clicks(127)"></td>
+
+                    <td><img id="place(128)" src="black40x40.png" onclick="clicks(128)"></td>
+                    <td><img id="place(129)" src="black40x40.png" onclick="clicks(129)"></td>
+                    <td><img id="place(130)" src="black40x40.png" onclick="clicks(130)"></td>
+                    <!-- start begin game button and stop -->
+                    <td><input type="button" id="begin" value=" 'START' " onclick="hunt()" disabled></td>
+                    <!-- spacing -->
+                    <td><pre>  </pre></td>
+                    <!-- time count down window-->
+                    <td align=right><b><font color="yellow">Time: </font></b></td>
+                    <td><input type="text" id="time" size="4"></td>
+                    <td><img id="place(131)" src="black40x40.png" onclick="clicks(131)"></td>
+                    <td><img id="place(132)" src="black40x40.png" onclick="clicks(132)"></td>
+                    <td><img id="place(133)" src="black40x40.png" onclick="clicks(133)"></td>
+                    <td><img id="place(134)" src="black40x40.png" onclick="clicks(134)"></td>
+                    <td><img id="place(135)" src="black40x40.png" onclick="clicks(135)"></td>
+                    <td><img id="place(136)" src="black40x40.png" onclick="clicks(136)"></td>
+                    <td><img id="place(137)" src="black40x40.png" onclick="clicks(137)"></td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td><img id="place(138)" src="black40x40.png" onclick="clicks(138)"></td>
+                    <td><img id="place(139)" src="black40x40.png" onclick="clicks(139)"></td>
+                    <td><img id="place(140)" src="black40x40.png" onclick="clicks(140)"></td>
+                    <td><img id="place(141)" src="black40x40.png" onclick="clicks(141)"></td>
+                    <td><img id="place(142)" src="black40x40.png" onclick="clicks(142)"></td>
+                    <td><img id="place(143)" src="black40x40.png" onclick="clicks(143)"></td>
+                    <td><img id="place(144)" src="black40x40.png" onclick="clicks(144)"></td>
+
+                    <!-- message board -->
+                    <td><input type="text" id="whattodo" size="26" value=" "></td>
+                    <!-- spacing-->
+                    <td><pre>  </pre></td>
+                    <!-- show score progress-->
+                    <td align=right><b><font color="yellow">Score: </font></b></td>
+                    <td><input type="text" id="score" size="4"></td>
+
+
+                    <td><img id="place(145)" src="black40x40.png" onclick="clicks(145)"></td>
+                    <td><img id="place(146)" src="black40x40.png" onclick="clicks(146)"></td>
+                    <td><img id="place(147)" src="black40x40.png" onclick="clicks(147)"></td>
+                    <td><img id="place(148)" src="black40x40.png" onclick="clicks(148)"></td>
+                    <td><img id="place(149)" src="black40x40.png" onclick="clicks(149)"></td>
+                    <td><img id="place(150)" src="black40x40.png" onclick="clicks(150)"></td>
+                    <td><img id="place(151)" src="black40x40.png" onclick="clicks(151)"></td>
+
+
+                </tr>
+
+                <!--<tr>
+                    <td><input type="text" size="26" value=" break button for test" onmouseover="test()"></td>
+                </tr>-->
+            </table>
+        </center>
+    </form>
+    <center>
+        <input type="button" id="zero" value=" RESET HIGH SCORE " onclick="btnreset()" disabled>
+    </center>
+</body>
+</html>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+    var woo = document.getElementById("zero");
+
+    var goo = document.getElementById("begin");
+    
+    //sounds to be used
+    var appearsound = new Audio();
+    appearsound.src = "appear.mp3";
+    var heartbeatsound = new Audio();
+    heartbeatsound.src = "heartbeat.mp3";
+    var hscore = new Audio();
+    hscore.src = "win.mp3";
+    var maintheme = new Audio();
+    maintheme.src = "theme2.mp3";
+    var gametheme = new Audio();
+    gametheme.src = "ghost2.mp3"
+    var nothscore = new Audio();
+    nothscore.src = "lscore.mp3";
+    var hitsound = new Audio();
+    hitsound.src = "hit.mp3";
+    var misssound = new Audio();
+    misssound.src = "miss.mp3";
+    // var ticksound = new Audio(); now heartbeat
+    // ticksound.src = "tick.mp3";
+    var themesound = new Audio();
+    themesound.src = "theme.mp3";
+    var image = new Array(153);
+    image[0] = document.getElementById("place(0)");
+    image[1] = document.getElementById("place(1)");
+    image[2] = document.getElementById("place(2)");
+    image[3] = document.getElementById("place(3)");
+    image[4] = document.getElementById("place(4)");
+    image[5] = document.getElementById("place(5)");
+    image[6] = document.getElementById("place(6)");
+    image[7] = document.getElementById("place(7)");
+    image[8] = document.getElementById("place(8)");
+    image[9] = document.getElementById("place(9)");
+    image[10] = document.getElementById("place(10)");
+    image[11] = document.getElementById("place(11)");
+    image[12] = document.getElementById("place(12)");
+    image[13] = document.getElementById("place(13)");
+    image[14] = document.getElementById("place(14)");
+    image[15] = document.getElementById("place(15)");
+    image[16] = document.getElementById("place(16)");
+    image[17] = document.getElementById("place(17)");
+    image[18] = document.getElementById("place(18)");
+    image[19] = document.getElementById("place(19)");
+    image[20] = document.getElementById("place(20)");
+    image[21] = document.getElementById("place(21)");
+    image[22] = document.getElementById("place(22)");
+    image[23] = document.getElementById("place(23)");
+    image[24] = document.getElementById("place(24)");
+    image[25] = document.getElementById("place(25)");
+    image[26] = document.getElementById("place(26)");
+    image[27] = document.getElementById("place(27)");
+    image[28] = document.getElementById("place(28)");
+    image[29] = document.getElementById("place(29)");
+    image[30] = document.getElementById("place(30)");
+    image[31] = document.getElementById("place(31)");
+    image[32] = document.getElementById("place(32)");
+    image[33] = document.getElementById("place(33)");
+    image[34] = document.getElementById("place(34)");
+    image[35] = document.getElementById("place(35)");
+    image[36] = document.getElementById("place(36)");
+    image[37] = document.getElementById("place(37)");
+    image[38] = document.getElementById("place(38)");
+    image[39] = document.getElementById("place(39)");
+    image[40] = document.getElementById("place(40)");
+    image[41] = document.getElementById("place(41)");
+    image[42] = document.getElementById("place(42)");
+    image[43] = document.getElementById("place(43)");
+    image[44] = document.getElementById("place(44)");
+    image[45] = document.getElementById("place(45)");
+    image[46] = document.getElementById("place(46)");
+    image[47] = document.getElementById("place(47)");
+    image[48] = document.getElementById("place(48)");
+    image[49] = document.getElementById("place(49)");
+    image[50] = document.getElementById("place(50)");
+    image[51] = document.getElementById("place(51)");
+    image[52] = document.getElementById("place(52)");
+    image[53] = document.getElementById("place(53)");
+    image[54] = document.getElementById("place(54)");
+    image[55] = document.getElementById("place(55)");
+    image[56] = document.getElementById("place(56)");
+    image[57] = document.getElementById("place(57)");
+    image[58] = document.getElementById("place(58)");
+    image[59] = document.getElementById("place(59)");
+    image[60] = document.getElementById("place(60)");
+    image[61] = document.getElementById("place(61)");
+    image[62] = document.getElementById("place(62)");
+    image[63] = document.getElementById("place(63)");
+    image[64] = document.getElementById("place(64)");
+    image[65] = document.getElementById("place(65)");
+    image[66] = document.getElementById("place(66)");
+    image[67] = document.getElementById("place(67)");
+    image[68] = document.getElementById("place(68)");
+    image[69] = document.getElementById("place(69)");
+    image[70] = document.getElementById("place(70)");
+    image[71] = document.getElementById("place(71)");
+    image[72] = document.getElementById("place(72)");
+    image[73] = document.getElementById("place(73)");
+    image[74] = document.getElementById("place(74)");
+    image[75] = document.getElementById("place(75)");
+    image[76] = document.getElementById("place(76)");
+    image[77] = document.getElementById("place(77)");
+    image[78] = document.getElementById("place(78)");
+    image[79] = document.getElementById("place(79)");
+    image[80] = document.getElementById("place(80)");
+    image[81] = document.getElementById("place(81)");
+    image[82] = document.getElementById("place(82)");
+    image[83] = document.getElementById("place(83)");
+    image[84] = document.getElementById("place(84)");
+    image[85] = document.getElementById("place(85)");
+    image[86] = document.getElementById("place(86)");
+    image[87] = document.getElementById("place(87)");
+    image[88] = document.getElementById("place(88)");
+    image[89] = document.getElementById("place(89)");
+    image[90] = document.getElementById("place(90)");
+    image[91] = document.getElementById("place(91)");
+    image[92] = document.getElementById("place(92)");
+    image[93] = document.getElementById("place(93)");
+    image[94] = document.getElementById("place(94)");
+    image[95] = document.getElementById("place(95)");
+    image[96] = document.getElementById("place(96)");
+    image[97] = document.getElementById("place(97)");
+    image[98] = document.getElementById("place(98)");
+    image[99] = document.getElementById("place(99)");
+    image[100] = document.getElementById("place(100)");
+    image[101] = document.getElementById("place(101)");
+    image[102] = document.getElementById("place(102)");
+    image[103] = document.getElementById("place(103)");
+    image[104] = document.getElementById("place(104)");
+    image[105] = document.getElementById("place(105)");
+    image[106] = document.getElementById("place(106)");
+    image[107] = document.getElementById("place(107)");
+    image[108] = document.getElementById("place(108)");
+    image[109] = document.getElementById("place(109)");
+    image[110] = document.getElementById("place(110)");
+    image[111] = document.getElementById("place(111)");
+    image[112] = document.getElementById("place(112)");
+    image[113] = document.getElementById("place(113)");
+    image[114] = document.getElementById("place(114)");
+    image[115] = document.getElementById("place(115)");
+    image[116] = document.getElementById("place(116)");
+    image[117] = document.getElementById("place(117)");
+    image[118] = document.getElementById("place(118)");
+    image[119] = document.getElementById("place(119)");
+    image[120] = document.getElementById("place(120)");
+    image[121] = document.getElementById("place(121)");
+    image[122] = document.getElementById("place(122)");
+    image[123] = document.getElementById("place(123)");
+    image[124] = document.getElementById("place(124)");
+    image[125] = document.getElementById("place(125)");
+    image[126] = document.getElementById("place(126)");
+    image[127] = document.getElementById("place(127)");
+    image[128] = document.getElementById("place(128)");
+    image[129] = document.getElementById("place(129)");
+    image[130] = document.getElementById("place(130)");
+    image[131] = document.getElementById("place(131)");
+    image[132] = document.getElementById("place(132)");
+    image[133] = document.getElementById("place(133)");
+    image[134] = document.getElementById("place(134)");
+    image[135] = document.getElementById("place(135)");
+    image[136] = document.getElementById("place(136)");
+    image[137] = document.getElementById("place(137)");
+    image[138] = document.getElementById("place(138)");
+    image[139] = document.getElementById("place(139)");
+    image[140] = document.getElementById("place(140)");
+    image[141] = document.getElementById("place(141)");
+    image[142] = document.getElementById("place(142)");
+    image[143] = document.getElementById("place(143)");
+    image[144] = document.getElementById("place(144)");
+    image[145] = document.getElementById("place(145)");
+    image[146] = document.getElementById("place(146)");
+    image[147] = document.getElementById("place(147)");
+    image[148] = document.getElementById("place(148)");
+    image[149] = document.getElementById("place(149)");
+    image[150] = document.getElementById("place(150)");
+    image[151] = document.getElementById("place(151)");
+    //image[152] = document.getElementById("place(152)");
+    //image[153] = document.getElementById("place(153)");
+    // c
+    // position var
+    //  var p = 0;    
+    // timer set at 15 seconds duration of game
+    var ghostsawake = 15;
+    //give time timerID a value for the game count
+    var timerID = null; //is an empty value
+    // onclick
+    var playing = false;
+
+    var appeared = null; // to give appeared var a value being empty as will change  
+    // all ghost spirits 
+    var ghosts = new Array(17);
+    ghosts[0] = "one.png";
+    ghosts[1] = "two.png";
+    ghosts[2] = "three.png";
+    ghosts[3] = "four.png";
+    ghosts[4] = "five.png";
+    ghosts[5] = "six.png";
+    ghosts[6] = "seven.png";
+    ghosts[7] = "eight.png";
+    ghosts[8] = "nine.png";
+    ghosts[9] = "ten.png";
+    ghosts[10] = "eleven.png";
+    ghosts[11] = "twelve.png";
+    ghosts[12] = "thirteen.png";
+    ghosts[13] = "fourteen.png";
+    ghosts[14] = "fifteen.png";
+    ghosts[15] = "louise.png";
+    ghosts[16] = "one.gif";
+    ghosts[17] = "two.gif";
+    ghosts[18] = "three.gif";
+    ghosts[19] = "four.gif";
+    ghosts[20] = "five.gif";
+    ghosts[21] = "six.gif";
+    ghosts[22] = "seven.gif";
+    ghosts[23] = "eight.gif";
+    ghosts[24] = "nine.gif";
+    ghosts[25] = "ten.gif";
+    ghosts[26] = "eleven.gif";
+    ghosts[27] = "twelve.gif";
+    ghosts[28] = "thirteen.gif";
+    ghosts[29] = "fourteen.gif";
+    ghosts[30] = "fifteen.gif";
+    ghosts[40] = "black40x40.png"; 
+
+    // below two function not needed due to clicks function update
+    function enableclick() {
+
+       
+       // var clickoff = document.getElementsByTagName();
+       // for (var i = 0; i < clickoff.length; i++)
+       //     clickoff[i].onclick = true; didnt work
+        
+    }
+
+    function disableclick() {
+        // document.getElementbyId("steve").disabled = true;
+        // document.getElementbyId("savescore").disabled = true;
+        // document.getElementbyId("daniel").disabled = true;
+
+        //var clickoff = document.getElementsByTagName(clicks);
+        //for (var i = 0; i < 151; i++)
+        //    clickoff[i] = false;
+        }
+    
+    function btnreset() {
+
+        var nil;
+        
+        nil = 0;
+
+        localStorage.setItem("bestscores", nil);
+        document.getElementById("highscore").value = localStorage.getItem("bestscores");
+        document.getElementById("highscoremsg").value = "    GET THE HIGH SCORE ";
+        
+    }
+    // onloading play theme get high score from local storage
+    function gamesound() {
+        
+        
+        maintheme.play();
+        //disableclick();
+        // stop writing in boxes
+        document.getElementById("highscoremsg").disabled = true;
+        document.getElementById("whattodo").disabled = true;
+        document.getElementById("score").disabled = true;
+        document.getElementById("time").disabled = true;
+        document.getElementById("highscore").disabled = true;
+        // themesound.play();
+        document.getElementById("highscore").value = localStorage.getItem("bestscores");
+        
+        goo.disabled = true;
+        
+        for (var i = 0; i < 152; i++) {
+                
+            // enough pause to show one pic placed
+            
+            (function (i) {
+
+                window.setTimeout(function () {
+
+                    if (i == 151) {
+                        // disabled start button until 151          
+                        goo.disabled = false;
+                        woo.disabled = false; 
+                        // enableclick();
+                  
+                    }
+                    // add next picture
+                    image[i].src = ghosts[(Math.floor(Math.random() * 30))];
+
+
+                    // time of the pause ms
+                }, i * 20);// times by function to create the delay of ms
+            }           //iteration 
+                (i)); //keeps i safe then +1 after return until 151
+        }
+        
+        return;
+        
+    }
+    
+    
+        
+    
+    //save score    
+    //var dead = 0;    
+    //var best = localStorage.getItem("bestscores"); 
+    //var save = localStorage.setItem("bestscores", dead);
+
+    // reset button
+    // localStorage.removeItem("bestscores", total);
+
+
+    // highscore function save keep show and compare 
+    function savehighscore() {
+        // will it work on page     
+        if (typeof (Storage) !== "undefined") {
+
+            if (total > localStorage.getItem("bestscores")) {
+                //save = total;
+                localStorage.setItem("bestscores", total);
+                document.getElementById("highscore").value = localStorage.getItem("bestscores");
+                document.getElementById("highscoremsg").value = " NEW RECORD well done ";
+                hscore.play();
+                //alert("NEW RECORD OF " + total + " GHOST HITS");
+            }
+            else {
+
+                if (total <= localStorage.getItem("bestscores")) {
+                    //document.getElementById("highscore").value = bestscore;
+                    document.getElementById("highscoremsg").value = " not good enough try again ";
+                    //alert("TRY AGAIN ONLY " + total + " GHOST HITS");
+                    nothscore.play();
+                }
+            }
+        }
+    }
+    
+    // testing function used
+    //function test() {
+    //    var tt = 2;
+    //}
+ // clear playing arena
+    function blank() {
+        for (var i = 0; i < 152; i++)
+            image[i].src = ghosts[40];
+    }
+    // boo random ghost position
+    // make rand num for spirit 0 to 9
+    function boo() {
+        return (Math.floor(Math.random() * 152));
+    }
+    // change ghosts randomly
+    function ghoul() {
+        return (Math.floor(Math.random() * 30));
+        //1
+    }
+    // clear timer
+    function timeend() {
+// when playing is false then clear the timerset
+        if (playing)
+            
+            clearTimeout(timerID);
+    }
+    // time remaining equals zero stop else -1
+    //function ready() {
+      //  if (image[151].src != ghosts[40]) {
+      //      hunting();
+      //  }
+//else {
+          //      ready();
+         //   }
+      //  }
+    
+    function hunting(countdown) {
+
+
+        document.top.time.value = countdown;
+        if (playing) {
+            // when play is false and timer has reached zero run end game
+            if (countdown == 0) {
+                gameover();
+                return;
+            }
+            else {
+                // counting down 1 second
+                timenow = countdown - 1;
+                // 1000ms is equal to 1 second
+                timerID = setTimeout("hunting(timenow)", 1000);
+            }
+        }
+    }
+    // end game result display
+    function resett() {
+        display("       ****   GAME OVER   ****");
+
+        document.top.begin.value = " START ";
+
+        maintheme.play();
+
+        savehighscore();
+
+    }
+    function gameover() {
+        // try to change order
+
+
+        timeend();
+
+        playing = false;
+
+        document.top.time.value = 0;
+
+        blank();
+
+        gametheme.pause();
+
+        resett();
+
+        // make more centred
+        //display("    ****   GAME OVER   ****");
+        
+        //document.top.begin.value = " START ";
+
+        //themesound.play();
+        
+        gamesound();
+        // return;
+        //savehighscore();
+        //for (var i = 0; i < 152; i++)
+
+        //    image[i].src = ghosts[(Math.floor(Math.random() * 30))];
+        //return;
+        // end game message look at save high score
+        
+    }
+    // game begins 
+    function hunt() {
+        // pause theme start timer
+        
+        maintheme.pause();
+
+        timeend();
+        // reset check
+        if (playing) {
+            gameover();
+            return;
+        }
+        // play is true board is cleared score is zero
+        playing = true;
+        blank();
+        total = 0;
+
+        document.top.score.value = total;
+        document.top.begin.value = " END ";
+        display("     CLICK ON THE GHOSTS  ");
+        // random ghost appears
+        letsgo();   
+        // game theme played
+        gametheme.play();
+        // timer go
+        hunting(ghostsawake);
+    }
+    // change display whattodo
+    function display(msg) {
+        document.top.whattodo.value = msg;
+    }
+    // display ghost
+    function letsgo() {
+        var going = false;  
+        // repeat unil ghost appears
+        while (!going) {
+            // myplace random boo number
+            myplace = boo();
+            // ghouls random ghost number
+            ghouls = ghoul();
+            // place a ghost. not in the same place
+            
+            if (myplace != appeared) {
+                // play mp3
+                appearsound.play();
+                image[myplace].src = ghosts[ghouls];
+                // repeat not allowed
+                appeared = myplace;
+                going = true;
+            }
+        }
+    }
+    // hit or miss had to change to clicks as click not work
+
+    // sound function on load
+    
+    // click on ghost or miss function
+    function clicks(id) {
+        // look at changing image to document.spirits. problem with top
+
+        // clicking but not started game 
+
+        // add a small help text box
+        if (playing == false) {
+            //blank();
+            display("      CLICK ABOVE TO START");
+            return;
+        }
+        // miss and plays sound minus point
+        if (appeared != id) {
+            // very short noise
+            misssound.play();
+            total += -1;
+            document.top.score.value = total;
+            image[id].src = ghosts[40];           
+        }
+        // hit and plays sound add point
+        else {
+            total += 1;
+            // very short noise
+            hitsound.play();
+            document.top.score.value = total;
+            letsgo();
+            image[id].src = ghosts[40];
+        }
+    }
+</SCRIPT>
